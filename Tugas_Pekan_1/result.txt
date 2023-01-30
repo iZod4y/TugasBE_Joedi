@@ -1,0 +1,7 @@
+Hasil dari 70 + 80 = 150
+Hasil dari -2.50 - 10 = -12.50
+Hasil dari -2.50 - -10 = 7.50
+Hasil dari 7 * 7 = 49
+Hasil dari 10 / 4 = 2.50
+Hasil dari 10 % 3 = 1
+Hasil dari 8 % 4 = 0
