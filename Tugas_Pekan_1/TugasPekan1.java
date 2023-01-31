@@ -24,36 +24,51 @@ class TugasPekan1 {
       if (menu == 0) {
         break;
       }
-      double hasil = 0;
-
-      System.out.print("Masukan angka ke 1 : ");
-      double operan = input.nextDouble();
-      System.out.print("Masukan angka ke 2 : ");
-      double operan2 = input.nextDouble();
+      double hasil , operan, operan2= 0;
       String operator = "";
 
       switch (menu) {
         case 1:
+        System.out.print("Masukan angka ke 1 : ");
+      operan = input.nextDouble();
+      System.out.print("Masukan angka ke 2 : ");
+      operan2 = input.nextDouble();
           hasil = operan + operan2;
           operator = "+";
           break;
         case 2:
+        System.out.print("Masukan angka ke 1 : ");
+      operan = input.nextDouble();
+      System.out.print("Masukan angka ke 2 : ");
+      operan2 = input.nextDouble();
           hasil = operan - operan2;
           operator = "-";
           break;
         case 3:
+        System.out.print("Masukan angka ke 1 : ");
+      operan = input.nextDouble();
+      System.out.print("Masukan angka ke 2 : ");
           hasil = operan * operan2;
           operator = "*";
           break;
         case 4:
+        System.out.print("Masukan angka ke 1 : ");
+      operan = input.nextDouble();
+      System.out.print("Masukan angka ke 2 : ");
+      operan2 = input.nextDouble();
           hasil = operan / operan2;
           operator = "/";
           break;
         case 5:
+        System.out.print("Masukan angka ke 1 : ");
+      operan = input.nextDouble();
+      System.out.print("Masukan angka ke 2 : ");
           hasil = operan % operan2;
           operator = "%";
           break;
         default:
+        System.out.println("\nerrormsg : Pilihan menu tidak valid \n" +
+        "\t   Masukan pilihan menu 1 - 5\n");
           continue;
       }
       String hasilFormat = (hasil % 1 == 0)

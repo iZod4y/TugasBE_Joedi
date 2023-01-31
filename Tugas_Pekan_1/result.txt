@@ -5,3 +5,4 @@ Hasil dari 7 * 7 = 49
 Hasil dari 10 / 4 = 2.50
 Hasil dari 10 % 3 = 1
 Hasil dari 8 % 4 = 0
+Hasil dari 25 * 4 = 100
